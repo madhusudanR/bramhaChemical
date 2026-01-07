@@ -1,2 +1,2 @@
 # bramhaChemical
-Bramha Chemical
+Bramha Chemical Pvt. Ltd.
