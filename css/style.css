@@ -1,0 +1,98 @@
+/* Base */
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Navbar */
+.navbar {
+    background: #004d99;
+    color: white;
+    padding: 15px;
+}
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    list-style: none;
+    float: right;
+}
+.menu li {
+    display: inline;
+    margin-left: 20px;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* Hero */
+.hero {
+    background: #007acc;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+.hero h1 {
+    margin: 0;
+    font-size: 42px;
+}
+.hero p {
+    font-size: 18px;
+}
+
+/* Services */
+.services {
+    padding: 40px 0;
+}
+.services h2 {
+    text-align: center;
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* CTA */
+.cta {
+    background: #005bb5;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+.cta button {
+    background: #ffffff;
+    color: #005bb5;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background: #00264d;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
