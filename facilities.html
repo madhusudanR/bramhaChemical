@@ -4,13 +4,16 @@
 <meta charset="UTF-8">
 <title>Our Facilities – Bramha Chemicals</title>
 <link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
 </head>
 <body>
 
 <!-- HEADER -->
 <header class="header">
   <div class="container header-flex">
-    <img src="images/logo.png" class="logo">
+    <div class="logo-box">
+      <img src="images/logo.png" alt="Bramha Chemicals Logo">
+    </div>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -38,7 +41,14 @@
 
     <div class="facility-grid">
       <div class="facility-card">
-        <img src="images/facility1.jpg" alt="Manufacturing Unit">
+        <div class="facility-carousel">
+          <div class="facility-slide active" style="background-image:url('images/factory1.jpg')"></div>
+          <div class="facility-slide" style="background-image:url('images/factory2.jpg')"></div>
+          <div class="facility-slide" style="background-image:url('images/factory3.jpg')"></div>
+          <div class="facility-slide" style="background-image:url('images/factory4.jpg')"></div>
+          <div class="facility-slide" style="background-image:url('images/factory5.jpg')"></div>
+        </div>
+      
         <h3>Advanced Infrastructure</h3>
         <p>
           State-of-the-art production units with focus on quality,
@@ -47,7 +57,12 @@
       </div>
 
       <div class="facility-card">
-        <img src="images/facility2.jpg" alt="Quality Control Lab">
+        <div class="facility-carousel">
+          <div class="facility-slide active" style="background-image:url('images/QualityAndSafety1.jpg')"></div>
+          <div class="facility-slide" style="background-image:url('images/QualityAndSafety2.jpg')"></div>
+          <div class="facility-slide" style="background-image:url('images/QualityAndSafety3.jpg')"></div>
+          <div class="facility-slide" style="background-image:url('images/QualityAndSafety4.jpg')"></div>
+        </div>
         <h3>Quality & Safety</h3>
         <p>
           Strict adherence to safety, environmental compliance,
@@ -56,7 +71,11 @@
       </div>
 
       <div class="facility-card">
-        <img src="images/facility3.jpg" alt="Future Expansion">
+        <div class="facility-carousel">
+          <div class="facility-slide active" style="background-image:url('images/futureExpansion1.jpg')"></div>
+          <div class="facility-slide" style="background-image:url('images/futureExpansion2.jpg')"></div>
+          <div class="facility-slide" style="background-image:url('images/futureExpansion3.jpg')"></div>
+        </div>
         <h3>Future Ready</h3>
         <p>
           Designed for expansion to support future growth
